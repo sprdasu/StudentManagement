@@ -16,7 +16,7 @@
                     <h3>Add New Course</h3>
                 </div>
                 <div class="card-body">
-                    <form action="add_validate.php" method="post">
+                    <form action="add_validate2.php" method="post">
                         <div class="mb-3">
                             <label for="course_id" class="form-label"><strong>Course Code</strong></label>
                             <input type="text" id="course_id" name="course_id" class="form-control" pattern="^([A-Z]{3})\d(\d|b)\d{2}" required>

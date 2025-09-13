@@ -29,6 +29,10 @@
             $course_insert_sql="insert into subject values (?,?,?,?,?)";
             $insert_statement=mysqli_prepare($conn,$course_insert_sql);
             mysqli_stmt_bind_param($insert_statement,"ssiii",$course_id,$course_name,$course_credits,$isTheory,$isPractical);
+
+            #b:blob i:integer s:string d:duble
+
+            
             if (!mysqli_stmt_execute($insert_statement)) {
                 echo "Error Occurred:".mysqli_error($conn);
             }
