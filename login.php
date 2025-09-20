@@ -16,7 +16,7 @@
                     <h3>Login</h3>
                 </div>
                 <div class="card-body">
-                    <form action="authenticate.php" method="post">
+                    <form action="authenticate2.php" method="post">
                         <div class="mb-3">
                             <label for="username" class="form-label">Username</label>
                             <input type="text" id="username" name="username" class="form-control" required>
